@@ -1,107 +1,20 @@
-nclude <stdlib.h>                                                                            
+#include <stdlib.h             
 
 #include <time.h>                                                                              
-
 /* more headers goes there */                                                                  
-
-                                                                                               
 
 /* betty style for doc function goes there */                                                  
 
 int main(void)                                                                                 
 
-{                                                                                              
+{                                                                              
+int n;                                                                                         
+srand(time(0));                                                                 n = rand() - RAND_MAX / 2; 
+/* your code goes there */                                          
+if (n > 0)
+	printf("%d is positive", n);                                                                   
 
-	int n;                                                                                         
-
-	                                                                                               
-
-	srand(time(0));                                                                                
-
-	n = rand() - RAND_MAX / 2;                                                                     
-
-	/* your code goes there */                                                                     
-
-	if (n > 0)                                                                                     
-
-		printf("%d is positive", n);                                                                   
-
-	else if (n < 0)                                                                                
-
-		printf("%d is negative", n);                                                                   
-
-	else                                                                                           
-
-		printf("%d is zero", n);                                                                       
-
-	                                                                                               
-
-	return (0);                                                                                    
-
-}                                                                                              
-
-~                                                                                              
-
-~                                                                                              
-
-"1-last_digit.c" 21L, 340C                                    18,24         All                
-
-                                                                                               
-
-                                                                                               
-
-                                                                                               
-
-                                                                                               
-
-                                                                                               
-
-                                                                                               
-
-                                                                                               
-
-                                                                                               
-
-                                                                                               
-
-                                                                              #include <stdlib.h>                                                                            
-
-#include <time.h>                                                                              
-
-/* more headers goes there */                                                                  
-
-                                                                                               
-
-/* betty style for doc function goes there */                                                  
-
-int main(void)                                                                                 
-
-{                                                                                              
-
-	int n;                                                                                         
-
-	                                                                                               
-
-	srand(time(0));                                                                                
-
-	n = rand() - RAND_MAX / 2;                                                                     
-
-	/* your code goes there */                                                                     
-
-	if (n > 0)                                                                                     
-
-		printf("%d is positive", n);                                                                   
-
-	else if (n < 0)                                                                                
-
-		printf("%d is negative", n);                                                                   
-
-	else                                                                                           
-
-		printf("%d is zero", n);                                                                       
-
-	                                                                                               
-
-	return (0);                                                                                    
-
-}                                                                                      
+else if (n < 0)                                                                          printf("%d is negative", n);                                                                  
+else
+	printf("%d is zero", n);                                                return (0)
+}
