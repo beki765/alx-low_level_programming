@@ -5,7 +5,7 @@
 /**
  *main - Entry point
  *
- * Return: A;ways 0 (Sucess/correct)
+ * Return: Always 0 (Sucess/correct)
  */
 int main(void)
 {
@@ -13,8 +13,8 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX /2;
-{
 if (n==0)
+{ 
 printf("%i is zero\n", n);
 }
 else if (n<0)
@@ -29,4 +29,4 @@ return (0);
 
 }
 
-;
+
