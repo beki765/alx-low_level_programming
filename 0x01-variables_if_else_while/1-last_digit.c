@@ -1,5 +1,6 @@
 #include <stdlib.h>
-#include <time.h>>
+#include <time.h>
+#include<stdio.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
 
@@ -27,3 +28,4 @@ printf("Last digit of %i is %i and less than 6 and not 0/n", n, n % 10);
 						
 return(0);
 }
+
