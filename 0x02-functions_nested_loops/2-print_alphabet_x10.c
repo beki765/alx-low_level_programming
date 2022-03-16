@@ -12,11 +12,11 @@ int count;
 
 
 count = 0;
-while (count < 10)	
+while (count < 10)
 {
 for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 {
-putchar(alphabet);	
+putchar(alphabet);
 }
 count++;
 putchar('\n');
