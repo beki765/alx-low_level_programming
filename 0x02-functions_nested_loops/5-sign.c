@@ -8,10 +8,16 @@
  */
 int print_sign(int n)
 {
+int r;
+
 if (n > 0)
+
 {
-putchar ('+');
-return (1);
+r = print_sign(98);
+putchar(',');
+putchar (' ');
+putchar (r,'0');
+putchar ('\n');
 }
 
 else if (n == 0)
