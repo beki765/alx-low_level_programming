@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
+ * main -check the code
  *
- * print_numbers - Prints the numbers
+ * Return: Always 0.
  */
 void print_numbers(void)
 {
 int i;
+
 
 for (i = 0; i <= 9; i++)
 {
@@ -15,3 +18,11 @@ putchar(i + '0');
 
 putchar('\n');
 }
+
+~
+
+~
+
+~
+
+~
