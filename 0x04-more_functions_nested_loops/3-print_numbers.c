@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include "main.h"
-
+#include <stdio.h>
 /**
- * main -check the code
+ * print_numbers - print numbers
  *
  * Return: Always 0.
  */
@@ -13,11 +12,11 @@ int i;
 i = 0;
 while  (i < 10)
 {
-putchar(i + '0');
+_putchar(i + '0');
 i++;
 }
 
-putchar('\n');
+_putchar('\n');
 }
 
 ~
