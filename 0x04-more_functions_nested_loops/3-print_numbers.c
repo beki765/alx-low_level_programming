@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_numbers - entry point
@@ -12,10 +13,10 @@ int numbers;
 
 for (number = '0'; number <= '9'; number++)
 {
-  _putchar(number);
+  putchar(number);
 }
 
-_putchar ('\n');
+putchar ('\n');
 }
 
 
