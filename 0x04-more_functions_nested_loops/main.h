@@ -1,5 +1,5 @@
-#ifindef INV_MAIN_H
-define INV_MAIN_H
+#ifndef INV_MAIN_H
+#define INV_MAIN_H
 int _putchar(char c);
 int  _isupper(int c);
 int _isdigit(int c);
@@ -14,8 +14,9 @@ void print_triangle(int size);
 int isprime(long int n);
 long int biggestfactor(long int a);
 void print_number(int n);
+
 int numdigits(int n);
-#end
+#endif
 
 
 
