@@ -17,7 +17,7 @@ while (i <10)
 {
 while (result <= 14)
 {
-if result <10}
+if (result < 10)
 {
 second_number = result;
 }
