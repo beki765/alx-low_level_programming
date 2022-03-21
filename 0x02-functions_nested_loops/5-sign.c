@@ -13,11 +13,8 @@ int r;
 if (n > 0)
 
 {
-r = print_sign(98);
-putchar(',');
-putchar (' ');
-putchar (r,'0');
-putchar ('\n');
+putchar ('+');
+return (1);
 }
 
 else if (n == 0)
