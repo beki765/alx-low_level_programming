@@ -13,7 +13,7 @@ int result;
 
 i = 0;
 result = 0;
-while (i <10)
+while (i < 10)
 {
 while (result <= 14)
 {
