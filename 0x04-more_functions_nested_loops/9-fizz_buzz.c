@@ -9,7 +9,7 @@ int main(void)
 
 int p = 100;
 int i;
-
+ 
 i = 1;
 while (i <= p)
 {
@@ -28,7 +28,7 @@ else if (i % 5 == 0)
 if (i < p)
 printf("Buzz");
 
-else
+else 
 printf("Buzz");
 }
 
