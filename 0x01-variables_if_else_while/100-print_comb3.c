@@ -15,15 +15,15 @@ while (a <= 9)
 while (b <= 9)
 {
 if (a < b)
-{															
+{
 if (coma == 0)
 {
 putchar(',');
 putchar(32);
-}														
+}
 coma = 0;														   putchar(a + '0');
 putchar(b + '0');
-}															
+}
 ++b;
 }
 ++a;
