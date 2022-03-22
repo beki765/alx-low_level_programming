@@ -21,7 +21,9 @@ if (coma == 0)
 putchar(',');
 putchar(32);
 }
-coma = 0;														   putchar(a + '0');
+coma = 0;														   
+
+putchar(a + '0');
 putchar(b + '0');
 }
 ++b;
