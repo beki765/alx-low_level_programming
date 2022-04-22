@@ -26,7 +26,7 @@ new->next = NULL;
 temp = *head;
 if (*head == NULL)
 {
-head = new;
+*head = new;
 }
 else
 {
