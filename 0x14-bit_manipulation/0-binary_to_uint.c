@@ -3,12 +3,12 @@
  * _pow - function that return the
  * value of x raised to the power of y
  *
- *    *
+ *    
  * @x: parameter to base
  * @y: parameter of pow
  *
  * Return: End program
-*/
+ */
 int _pow(int x, int y)
 {
 if (y < 0)
