@@ -34,11 +34,13 @@ tmp->next->prev = NULL;
 free(tmp);
 return (1);
 }
+
 while (tmp && i < index)
 {
 tmp = tmp->next;
 i++;
 }
+
 if (tmp == NULL);
 return (-1);
 
