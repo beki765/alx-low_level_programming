@@ -41,7 +41,7 @@ tmp = tmp->next;
 i++;
 }
 
-if (tmp == NULL);
+if (tmp == NULL)
 return (-1);
 
 tmp->prev->next = tmp->next;
