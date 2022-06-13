@@ -1,1 +1,1 @@
-dynamic list
+pointers_arrays_strings
